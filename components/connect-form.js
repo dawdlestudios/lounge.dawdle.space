@@ -146,7 +146,7 @@ export default class ConnectForm extends Component {
 
 		return html`
 			<form onChange=${this.handleChange} onSubmit=${this.handleSubmit}>
-				<h2>Connect to IRC</h2>
+				<h2>Connect to Chat</h2>
 
 				<label>
 					Nickname:<br/>

@@ -2,6 +2,8 @@
   "name": "gamja",
   "type": "module",
   "dependencies": {
+    "butterchurn": "^2.6.7",
+    "butterchurn-presets": "^2.4.7",
     "htm": "^3.0.4",
     "linkifyjs": "^3.0.2",
     "preact": "^10.5.9"
