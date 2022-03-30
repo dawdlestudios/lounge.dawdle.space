@@ -1,0 +1,9 @@
+{
+	"server": {
+		"url": "wss://irc.dawdle.space",
+		"autojoin": "#lounge",
+		"auth": "optional",
+		"nick": "guest",
+		"ping": 60
+	}
+}
