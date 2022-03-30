@@ -1,33 +1,33 @@
 {
-  "name": "gamja",
-  "type": "module",
-  "dependencies": {
-    "butterchurn": "^2.6.7",
-    "butterchurn-presets": "^2.4.7",
-    "htm": "^3.0.4",
-    "linkifyjs": "^3.0.2",
-    "preact": "^10.5.9"
-  },
-  "devDependencies": {
-    "@parcel/packager-raw-url": "^2.0.0",
-    "@parcel/transformer-webmanifest": "^2.0.0",
-    "node-static": "^0.7.11",
-    "parcel": "^2.0.0",
-    "split": "^1.0.1",
-    "ws": "^8.3.0"
-  },
-  "scripts": {
-    "start": "node ./dev-server.js",
-    "build": "parcel build"
-  },
-  "private": true,
-  "targets": {
-    "default": {
-      "source": "index.html",
-      "publicUrl": "."
-    }
-  },
-  "engines": {
-    "node": ">=14.13.0"
-  }
+	"name": "gamja",
+	"type": "module",
+	"dependencies": {
+		"butterchurn": "^2.6.7",
+		"butterchurn-presets": "^2.4.7",
+		"htm": "^3.0.4",
+		"linkifyjs": "^3.0.2",
+		"preact": "^10.5.9"
+	},
+	"devDependencies": {
+		"@parcel/packager-raw-url": "^2.0.0",
+		"@parcel/transformer-webmanifest": "^2.0.0",
+		"node-static": "^0.7.11",
+		"parcel": "^2.0.0",
+		"split": "^1.0.1",
+		"ws": "^8.3.0"
+	},
+	"scripts": {
+		"start": "node ./dev-server.js",
+		"build": "parcel build && cp config.json dist/config.json"
+	},
+	"private": true,
+	"targets": {
+		"default": {
+			"source": "index.html",
+			"publicUrl": "."
+		}
+	},
+	"engines": {
+		"node": ">=14.13.0"
+	}
 }
